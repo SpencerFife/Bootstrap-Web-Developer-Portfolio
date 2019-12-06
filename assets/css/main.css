@@ -5,7 +5,9 @@
 .container-body {
     display: flex;
     justify-content: center;
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: calc(100vh - 72px):
 }
 
 .container-footer {
@@ -30,6 +32,13 @@ body {
     color: #777777;
     background: url("assets/images/so-white.png");
     margin: 0;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
 }
 
 h1, h2, h3 {
