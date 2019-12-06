@@ -1,0 +1,47 @@
+.navbar {
+
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-footer {
+    
+
+}
+
+.btn {
+    
+}
+
+body {
+   
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+h1, h2, h3 {
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h1, h2, h3, p {
+    margin: 20px;
+}
+
+#logo {
+    background: #4aaaa5;
+    color: #ffffff;
+}
