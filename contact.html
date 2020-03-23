@@ -32,6 +32,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/71fd15e589.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -60,43 +64,44 @@
     </nav>
 
     <div class="container-body">
-      <section class="container">
+      <section class="container" id="form">
         <h1>Contact</h1>
+        <div class="contactForm"></div>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Name</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="1"
+              ></textarea>
+            </div>
 
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Name</label>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="1"
-            ></textarea>
-          </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
 
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="6"
+              ></textarea>
+            </div>
 
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="6"
-            ></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </section>
-    </div>
-
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+        </section>
+      </div>
+    
     <footer>
       <div class="container-footer">
         <span class="text-muted">&copy;2020 | </span>

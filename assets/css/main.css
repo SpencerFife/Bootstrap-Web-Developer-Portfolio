@@ -1,5 +1,6 @@
-.navbar {
-}
+/** {
+  border: 3px solid black;
+}*/
 
 .card-container {
   justify-content: center;
@@ -10,6 +11,7 @@
 
 .card {
   text-align: center;
+  margin: 20px;
 }
 
 .container-body {
@@ -26,14 +28,15 @@
   font-size: 12px;
   color: white;
   text-align: left;
-  background: #666666;
-  border-top: 8px solid #4aaaa5;
+  background: #7217a3;
+  border-top: 8px solid #d9b800;
   height: 50px;
 }
 
 .btn {
-  background-color: #4aaaa5;
+  background-color: #7217a3;
   color: white;
+  border-color: #7217a3;
 }
 
 body {
@@ -41,37 +44,61 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("assets/images/so-white.png");
-  margin: 0;
+  background: url("/assets/images/so-white.png");
+  margin: 0 40px;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  border-bottom: 3px solid #d9b800;
 }
 
 h1,
 h2,
 h3 {
-  background: #4aaaa5;
+  background: #7217a3;
   text-align: center;
   color: #ffffff;
   font-weight: 700;
 }
 
+#profileImg {
+  border: 3px solid #7217a3;
+}
+
+#WDS {
+  text-align: center;
+  font-size: 25px;
+}
+
+#form,
+#imgDiv,
+.linkContainer,
 h1,
 h2,
 h3,
+h5,
 p {
   margin: 20px;
+  padding: 10px;
 }
 
 #logo {
-  background: #4aaaa5;
-  color: #ffffff;
+  background: #7217a3;
+  color: #d9b800;
   padding: 10px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#gitHub,
+#linkedIn {
+  margin: 10px;
 }
 
 #navbar-nav {
